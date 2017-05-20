@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>行者</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../../../../../Desktop/Innovae/src/main/resources/login/assets/css/login.css">
+    <link rel="stylesheet" href="../../../../../../Desktop/Innovae/src/main/resources/login/assets/css/supersized.css">
+
+    <!-- Script -->
+    <script src="../../../../../../Desktop/Innovae/src/main/resources/js/jquery-1.8.2.min.js"></script>
+    <script src="../../../../../../Desktop/Innovae/src/main/resources/js/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="../../../../../../Desktop/Innovae/src/main/resources/js/supersized.3.2.7.min.js"></script>
+    <script src="../../../../../../Desktop/Innovae/src/main/resources/login/assets/js/login.js"></script>
+
+</head>
+<body>
+    <div class="logo">
+        <div class="txt_logo">
+            <h1 class="f1">行 者</h1>
+            <h2 class="f2">步履不停·生活不止</h2>
+        </div>
+        <div class="slogan"></div>
+    </div>
+
+    <div class="menu">
+        <div class="register_area" id='register_area' onclick="choose_reg()">
+            <a href="#">
+                注册
+            </a>
+        </div>
+        <div class="login_area" id='login_area' onclick="choose_log()">
+            <a href="#" >
+                登录
+            </a>
+        </div>
+    </div>
+
+    <div class="m-region">
+        <div class="page-container" id="page-container">
+            <form action='' method="post">
+                <input type="text" name="email" class="email" placeholder="邮箱">
+                <p class="error"></p>
+                <input type="password" name="password" class="password" placeholder="密码">
+                <button type="submit" class="btn_login">登 录</button>
+            </form>
+            <div class="connect">
+                <p>
+                    <a class="mod_pwd" href="">忘记密码？ &nbsp;</a> |
+                    <a class="mod_pwd" href="">&nbsp; 找回账号</a>
+                </p>
+            </div>
+        </div>
+        <div class="page-container1" id="page-container1" style="display: none">
+            <form action="" method="post" class="form1">
+                <input type="text" name="email" class="email" placeholder="邮箱">
+                <input type="password" name="password" class="password" placeholder="密码">
+                <input type="password" name="password" class="password" placeholder="确认密码">
+                <button type="submit" class="btn_login">注册</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>
